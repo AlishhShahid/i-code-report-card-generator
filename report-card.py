@@ -1,7 +1,7 @@
 students_data = []
 
 while True:
-  student_name = str(input("Enter the student's name: "))
+  student_name = input("Enter the student's name: ")
   try:
     roll_number = int(input("Enter the student's roll number: "))
     math = int(input("Enter marks obtained in Math: "))
